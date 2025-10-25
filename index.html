@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sushant Dhinda | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome Icons CDN -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Sushant<span>Dhinda</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle">
+      <i class="fas fa-moon"></i>
+    </button>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home fade-in">
+    <div class="content">
+      <h1>Hello, I'm <span>Sushanta  Dhinda</span></h1>
+      <p>Creative Web Developer passionate about crafting beautiful, functional, and responsive websites.</p>
+      <a href="#projects" class="btn">Explore My Work</a>
+    </div>
+    <div class="image">
+      <img src="WhatsApp Image 2025-10-13 at 22.58.51_3fd5db4f.jpg" alt="Profile Photo">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about fade-in">
+    <h1>About Me</h1>
+    <div class="about-container">
+      <p>
+        I'm a web developer skilled in front-end technologies and responsive design. I love transforming ideas into clean, 
+        user-friendly digital experiences. I focus on writing clean code and building elegant interfaces.
+      </p>
+      <div class="info-box">
+        <h3>Education</h3>
+        <p>B.Tech in Computer Science and Engineering</p>
+
+        <h3>Experience</h3>
+        <p>Web Development Intern at <strong>Prodigy Infotech</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills fade-in">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill"><i class="fab fa-html5"></i><span>HTML5</span></div>
+      <div class="skill"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+      <div class="skill"><i class="fab fa-js"></i><span>JavaScript</span></div>
+      <div class="skill"><i class="fab fa-git-alt"></i><span>Git / GitHub</span></div>
+      <div class="skill"><i class="fas fa-laptop-code"></i><span>Responsive Design</span></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects fade-in">
+    <h1>Featured Projects</h1>
+    <div class="project-grid">
+
+      <div class="project-card">
+        <img src="Project1.png" alt="Responsive Landing Page">
+        <div class="project-info">
+          <h3>Responsive Landing Page</h3>
+          <p>A modern, responsive landing page designed using HTML, CSS, and JavaScript, optimized for all devices.</p>
+          <a href="https://sushant542004.github.io/PRODIGY_WD_01/" target="_blank" class="project-btn">View Project</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="Project2.png" alt="Stopwatch Web App">
+        <div class="project-info">
+          <h3>Stopwatch Web Application</h3>
+          <p>A clean and interactive stopwatch built using JavaScript, featuring start, stop, and reset functionality.</p>
+          <a href="https://sushant542004.github.io/PRODIGY_WD_02/" target="_blank" class="project-btn">View Project</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="Project3.png" alt="Tic Tac Toe Web App">
+        <div class="project-info">
+          <h3>Tic-Tac-Toe Web Application</h3>
+          <p>An interactive two-player Tic-Tac-Toe game with responsive design and winning logic using JavaScript.</p>
+          <a href="https://sushant542004.github.io/PRODIGY_WD_03/" target="_blank" class="project-btn">View Project</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+ <section id="contact" class="contact fade-in">
+  <h1>Contact Me</h1>
+  <p>Interested in working together? Let’s connect!</p>
+
+  <div class="contact-info">
+    <p  onclick="window.open('https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox', '_blank')" style="cursor: pointer;">
+      <i class="fas fa-envelope"></i> 
+    </p>
+
+    <p onclick="window.open('https://github.com/Sushant542004', '_blank')" style="cursor: pointer;">
+      <i  class="fab fa-github"></i> 
+    </p>
+
+    <p onclick="window.open('https://www.linkedin.com/in/sushant-dhinda-1b8343275/', '_blank')" style="cursor: pointer;">
+      <i class="fab fa-linkedin"></i> 
+    </p>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Sushant Dhinda | Designed with ❤️</p>
+  </footer>
+</body>
+</html>
